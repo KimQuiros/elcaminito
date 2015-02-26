@@ -1,0 +1,83 @@
+/* Globals Html */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: Arial, Verdana, sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+/*----------------------------HEADER--------------------------------------*/
+header{
+	background-color: #e1e1e1;
+	padding: 11px;
+}
+header img{
+	width: 11%;
+	margin-left: 184px;
+	margin-top: -11px;
+}
+.navegación{
+	margin-left: 376px;
+	margin-top: -135px;
+	margin-bottom: 9px;
+}
+.navegación a{
+	color: #000;
+	text-decoration: none;
+	font-size: 1.6rem;
+	margin-right: 19px;
+}
+.navegación a:hover{
+	background-color: #cccccc;
+	padding: 20px 19px;
+	margin-right: 0;
+}
+/*-------------------------informacion inicial_________________________*/
+.informacion_inical{
+	background: url(../img/banner.jpg) no-repeat center;
+	height: 648px;
+	width: 100%;	
+}
+.informacion_inical h1, .informacion_inical p{
+	color: #fff;
+	margin: 0;
+	padding-left: 189px;
+}
+h1{
+	padding-top: 352px;
+	font-size: 5rem;
+}
+.informacion_inical p{
+	font-size: 3rem;
+	margin-top: 8px;
+}
+/*-------------------------informacion_elcaminito-------------------------*/
+.informacion_elcaminito{
+	background-color: #cccccc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.informacion_elcaminito h2{
+	font-size: 2.5rem;
+	margin-left: 189px;
+}
+.informacion_elcaminito p{
+	font-size: 1.5rem;
+	margin-left: 193px;
+	width: 44%;
+}
+.conocer_mas{
+	float: right;
+	font-size: 1.7rem;
+	margin-top: -93px;
+	margin-right: 384px;
+}
+.informacion_elcaminito a{
+		color:#fff;
+		text-decoration: none;
+}
